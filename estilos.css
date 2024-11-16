@@ -1,0 +1,131 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3f1dd8;
+    color:rgb(3, 4, 36);
+}
+
+/* Sección de bienvenida */
+#bienvenida {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Galería de fotos */  
+#galeria {
+    padding: 20px;
+    text-align:center;
+    background-color: #0cc090;
+}
+
+#galeria h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: left;
+}
+
+.grid-fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.grupo-fotos {
+    text-align: center;
+}
+
+.grupo-fotos h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.fila img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #3f1dd8;
+}
+
+.grid-fotos img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#header-principal img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-creacion-pagina {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    border: 6px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #cccccccc;
+}
+
+.img-creacion-pagina img {
+    width: 45%;
+    height: auto;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+/* Videos */
+#videos {
+    padding: 20px;
+    text-align: center;
+}
+
+video {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Mensajes */
+#mensajes {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.mensaje {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #ffcccb;
+    background-color: #fff;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
